@@ -1,0 +1,67 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+#board {
+    margin: 20px auto;
+    border: 5px solid rgb(242, 255, 0);
+    position: relative;
+    z-index: 1;
+    box-sizing: border-box;
+    background-color: rgba(203, 223, 113, 0.986);
+}
+
+button {
+    padding: 17px 40px;
+    border-radius: 50px;
+    border: 0;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: #0000000d 0 0 8px;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    font-size: 15px;
+    transition: all .5s ease;
+    cursor: pointer;
+}
+
+button:hover{
+    letter-spacing: 3px;
+    background-color: #0ea12c;
+    color: #fff;
+    box-shadow: #0ea12c 0px 7px 29px 0px;
+}
+
+button:active{
+    letter-spacing: 3px;
+    background-color: #0ea12c;
+    color: #fff;
+    box-shadow: #0ea12c 0px 0px 0px 0px;
+    transform: translateY(10px);
+    transition: 100ms;
+
+}
+
+h1 {
+    color: rgb(123, 216, 123);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 2px 2px 4px #220a0a;
+    text-align: center;
+    font-size: 50px;
+    letter-spacing: 5px;
+}
+
+#scoreContainer {
+    color: #fff;
+    font-size: 24px;
+    text-shadow: 2px 2px 4px #000;
+}
+
+#currentScore, #highestScore{
+    color: rgb(123, 216, 123);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 1px 1px 1px #fff;
+    text-align:left;
+}
